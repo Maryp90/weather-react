@@ -1,18 +1,16 @@
-import './App.css';
+import "./App.css";
+import Form from "./Form";
 import Weather from "./Weather";
+import Footer from "./Footer";
 
-
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>
-          Hello World!
-        </h1>
+      <div className="container">
+        <Form />
         <Weather />
-      </header>
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;
