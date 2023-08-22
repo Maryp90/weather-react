@@ -13,9 +13,9 @@ export default function Form() {
         autoFocus="on"
       />
       <button
-        type="submit"
-        className="btn btn-primary search-box"
-        placeholder="Search"
+        type="button"
+        className="btn btn-link search-box"
+        id="search-box-button"
       >
         Search
       </button>
